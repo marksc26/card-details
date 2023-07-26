@@ -1,0 +1,265 @@
+.cards-section {
+    background-image: url('../../assets/images/bg-main-desktop.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.card-front {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 375px;
+    filter: drop-shadow(5px 10px 8px rgba(0, 0, 0, 0.87));
+    background-image: url('../../assets/images/bg-card-front.png');
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+
+
+.card-back {
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    background-image: url('../../assets/images/bg-card-back.png');
+    width: 375px;
+    height: 210px;
+    filter: drop-shadow(5px 10px 8px rgba(0, 0, 0, 0.87));
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+.card-logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.card-logo img {
+    width: 70px;
+}
+
+.card-number {
+    position: absolute;
+    width: 100%;
+    left: 50px;
+    top: 55%;
+
+}
+
+.card-number h3 {
+    width: 100%;
+    color: white;
+    font-size: 26px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.card-name {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.card-name h3 {
+    font-size: 15px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.card-date {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.card-date p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.card-date h3 {
+    font-size: 15px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.back {
+    position: absolute;
+    top: 43%;
+    right: 50px;
+}
+
+.back h3 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 17px;
+}
+
+@media(max-width: 1200px) {
+
+    .card-front {
+        width: 280px;
+        height: 170px;
+    }
+
+    .card-back {
+        width: 280px;
+        height: 170px;
+    }
+
+
+    .card-logo img {
+        width: 50px;
+    }
+
+    .card-number {
+        left: 40px;
+    }
+
+    .card-number h3 {
+        font-size: 19px;
+    }
+
+    .card-name h3 {
+        font-size: 12px;
+    }
+
+    .card-date h3 {
+        font-size: 12px;
+    }
+
+    .card-date p {
+        font-size: 12px;
+    }
+
+    .back h3 {
+        font-size: 13px;
+    }
+
+    .card-front {
+        left: 12%;
+    }
+
+    .card-back {
+        left: 25%;
+    }
+}
+
+@media(max-width: 780px) {
+    .cards-section {
+        background-image: url('../../assets/images/bg-main-mobile.png');
+        height: 40vh;
+
+
+    }
+
+    .card1 {
+        position: absolute;
+        bottom: 140px;
+        left: 20%;
+
+
+    }
+
+    .card-front {
+        width: 350px;
+        height: 200px;
+    }
+
+    .card2 {
+        position: absolute;
+        top: 20px;
+        left: 25%;
+        z-index: -1;
+
+    }
+
+    .card-back {
+        width: 350px;
+        height: 200px;
+
+    }
+
+
+}
+
+@media(max-width: 560px) {
+    .card1 {
+        left: 40px;
+    }
+
+    .card2 {
+        left: 120px;
+    }
+}
+
+@media(max-width: 485px) {
+    .card1 {
+        left: 30px;
+    }
+
+    .card2 {
+        left: 80px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .card1 {
+        left: 20px;
+    }
+
+    .card2 {
+        left: 80px;
+    }
+
+    .card-back {
+        width: 300px;
+        height: 180px;
+
+    }
+
+    .card-front {
+        width: 300px;
+        height: 180px;
+    }
+}
+
+@media(max-width: 400px) {
+
+
+
+    .card2 {
+        left: 60px;
+    }
+
+    .card-back {
+        width: 280px;
+        height: 170px;
+
+    }
+
+    .card-front {
+        width: 280px;
+        height: 170px;
+    }
+}
